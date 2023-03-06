@@ -1,0 +1,34 @@
+原登录提交数据
+{'appCode': 'M002',
+            'deviceId': deviceId,
+            'netWork': 'wifi',
+            'password': password_list,
+            'qudao': 'guanwang',
+            'requestMethod': 'cam_iface46/loginnew.action',
+            'shebeixinghao': self.login_info['shebeixinghao'],
+            'systemType': self.login_info['systemType'],
+            'telephoneInfo': self.login_info['telephoneInfo'],
+            'telephoneModel': self.login_info['telephoneModel'],
+            'type': '1',
+            'userName': self.login_info['phoneNum'],
+            'wanxiaoVersion': self.login_info['wanxiaoVersion'],
+            'yunyingshang': '07'
+        }
+
+
+现登录提交数据
+{"appCode": "M002",
+                "deviceId": deviceId,
+                "netWork": "wifi",
+                "password": password_encrypt,
+                "qudao": "xiaomi",
+                "requestMethod": "cam_iface46/loginnew.action",
+                "shebeixinghao": "sailfish",
+                "systemType": "android",
+                "telephoneInfo": "8.1.0",
+                "telephoneModel": "HD1910",
+                "type": "1",
+                "userName": phone,
+                "wanxiaoVersion": 10565101}
+
+替换掉登陆时的代码，并且重新用最新版本登陆重新注册
